@@ -3,7 +3,6 @@ import { z } from 'zod';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { User } from '../types/User';
 import { useEffect } from 'react';
-import { t } from '@lingui/core/macro';
 import { Trans } from '@lingui/react/macro';
 
 const schema = z.object({

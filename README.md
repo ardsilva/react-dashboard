@@ -26,10 +26,10 @@ Aplicação de dashboard desenvolvida com React + TypeScript, simulando um ambie
 
 ## 🔐 Dados de acesso (validados)
 
-\`\`\`
-E-mail: admin@example.com  
+```
+E-mail: admin@example.com
 Senha: 123456
-\`\`\`
+```
 
 ## 🚀 Tecnologias e Ferramentas
 
@@ -50,47 +50,46 @@ Senha: 123456
 
 1. Clone o repositório:
 
-\`\`\`bash
+```bash
 git clone https://github.com/seu-usuario/react-dashboard.git
 cd react-dashboard
-\`\`\`
+```
 
 2. Instale as dependências:
 
-\`\`\`bash
+```bash
 pnpm install
 
 # ou
 
 npm install
-\`\`\`
+```
 
 3. Rode o projeto localmente:
 
-\`\`\`bash
+```bash
 pnpm dev
-\`\`\`
+```
 
 4. Rode os testes:
 
-\`\`\`bash
+```bash
 pnpm test
-\`\`\`
+```
 
 ## 🧪 Cobertura de testes
 
 - Autenticação
 - Componente de tema (ThemeToggle)
-- Login com redirecionamento
 - Validações de formulário
 
 ## 📦 Deploy
 
-- [🔗 Acesse o app em produção](https://react-dashboard.vercel.app/)
+- [🔗 Acesse o app em produção](https://react-dashboard-sona.vercel.app/)
 
 ## 📝 Organização
 
-\`\`\`
+```bash
 src/
 ├── features/ # Módulos agrupados por feature (auth, dashboard, etc)
 ├── components/ # Componentes comuns e layout
@@ -99,7 +98,7 @@ src/
 ├── routes/ # Rotas protegidas
 ├── shared/ # Theme
 ├── tests/ # Testes unitários organizados
-\`\`\`
+```
 
 ## 📎 Considerações
 
@@ -109,5 +108,5 @@ src/
 
 ## 👨‍💻 Autor
 
-Feito por [Seu Nome] • [LinkedIn](https://linkedin.com/in/ardsilva87)  
+Feito por [Alexandre Silva] • [LinkedIn](https://linkedin.com/in/ardsilva87)  
 Repositório: [GitHub](https://github.com/ardsilva/react-dashboard)
