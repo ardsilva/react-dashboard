@@ -1,0 +1,142 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2025-04-18 11:25+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: en\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/features/dashboard/components/UserForm.tsx:66
+msgid "✏️ Editar usuário"
+msgstr "✏️ Edit user"
+
+#: src/features/dashboard/components/UserForm.tsx:68
+msgid "➕ Novo usuário"
+msgstr "➕ Add user"
+
+#: src/components/layout/Header.tsx:12
+msgid "📦 react-painel"
+msgstr "📦 react-dashboard"
+
+#: src/features/auth/pages/Login.tsx:84
+msgid "A senha deve ter pelo menos 6 caracteres"
+msgstr "The password must have at least 6 characters"
+
+#: src/features/auth/pages/Login.tsx:48
+msgid "Acesso ao Painel"
+msgstr "Dashboard login"
+
+#: src/features/auth/pages/Login.tsx:34
+msgid "Acesso autorizado ✅"
+msgstr "Login successfull ✅"
+
+#: src/features/dashboard/components/UserTable.tsx:43
+msgid "Ações"
+msgstr "Actions"
+
+#: src/features/dashboard/components/UserForm.tsx:111
+msgid "Adicionar"
+msgstr "Add"
+
+#: src/features/dashboard/components/UserTable.tsx:40
+#: src/features/auth/pages/Login.tsx:57
+msgid "E-mail"
+msgstr "E-mail"
+
+#: src/features/dashboard/components/UserForm.tsx:90
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: src/features/dashboard/components/UserForm.tsx:99
+#: src/features/auth/pages/Login.tsx:67
+msgid "E-mail inválido"
+msgstr "Invalid e-mail"
+
+#: src/features/dashboard/components/UserRow.tsx:27
+msgid "Editar"
+msgstr "Edit"
+
+#: src/features/dashboard/components/UserRow.tsx:22
+msgid "Editar usuário"
+msgstr "Edit user"
+
+#: src/features/auth/pages/Login.tsx:98
+msgid "Entrando..."
+msgstr "Logging..."
+
+#: src/features/auth/pages/Login.tsx:98
+msgid "Entrar"
+msgstr "Login"
+
+#: src/features/dashboard/components/UserRow.tsx:38
+msgid "Excluir"
+msgstr "Delete"
+
+#: src/features/dashboard/components/UserRow.tsx:33
+msgid "Excluir usuário"
+msgstr "Delete user"
+
+#: src/features/dashboard/components/UserTable.tsx:36
+#: src/features/dashboard/components/UserForm.tsx:74
+msgid "Nome"
+msgstr "Name"
+
+#: src/features/dashboard/components/UserForm.tsx:83
+msgid "Nome inválido"
+msgstr "Invalid name"
+
+#: src/features/auth/pages/Login.tsx:16
+#~ msgid "Pagina de Login"
+#~ msgstr "Login Page"
+
+#: src/components/layout/Header.tsx:28
+msgid "Sair"
+msgstr "Exit"
+
+#: src/features/dashboard/components/UserForm.tsx:109
+msgid "Salvar alterações"
+msgstr "Save changes"
+
+#: src/components/common/LanguageSwitcher.tsx:45
+msgid "Seletor de idioma"
+msgstr "Select language"
+
+#: src/components/common/ThemeToggle.tsx:33
+msgid "Seletor de tema"
+msgstr "Select theme"
+
+#: src/features/auth/pages/Login.tsx:74
+msgid "Senha"
+msgstr "Password"
+
+#: src/features/auth/pages/Login.tsx:104
+msgid "Use admin@example.com / 123456"
+msgstr "Use admin@example.com / 123456"
+
+#: src/features/dashboard/pages/Dashboard.tsx:52
+msgid "Usuário adicionado!"
+msgstr "User added!"
+
+#: src/features/dashboard/pages/Dashboard.tsx:68
+msgid "Usuário atualizado!"
+msgstr "User updated!"
+
+#: src/features/auth/pages/Login.tsx:37
+#: src/features/auth/pages/Login.tsx:38
+msgid "Usuário ou senha incorretos"
+msgstr "User or password incorrect(s)"
+
+#: src/features/dashboard/pages/Dashboard.tsx:57
+msgid "Usuário removido com sucesso!"
+msgstr "User deleted successfully!"
+
+#: src/features/dashboard/pages/Dashboard.tsx:79
+msgid "Usuários cadastrados"
+msgstr "Registered users"
