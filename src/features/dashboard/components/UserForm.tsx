@@ -69,10 +69,14 @@ const UserForm = ({ onAdd, onUpdate, defaultValues }: Props) => {
 			</h2>
 
 			<div>
-				<label className="block text-sm font-medium mb-1">
+				<label
+					htmlFor="name"
+					className="block text-sm font-medium mb-1"
+				>
 					<Trans>Nome</Trans>
 				</label>
 				<input
+					id="name"
 					type="text"
 					{...register('name')}
 					className="w-full p-2 border rounded dark:bg-gray-800 dark:text-white"
@@ -85,10 +89,14 @@ const UserForm = ({ onAdd, onUpdate, defaultValues }: Props) => {
 			</div>
 
 			<div>
-				<label className="block text-sm font-medium mb-1">
+				<label
+					htmlFor="email"
+					className="block text-sm font-medium mb-1"
+				>
 					<Trans>E-Mail</Trans>
 				</label>
 				<input
+					id="email"
 					type="email"
 					{...register('email')}
 					className="w-full p-2 border rounded dark:bg-gray-800 dark:text-white"
