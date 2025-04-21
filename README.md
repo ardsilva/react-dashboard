@@ -79,9 +79,10 @@ pnpm test
 
 ## 🧪 Cobertura de testes
 
-- Autenticação
 - Componente de tema (ThemeToggle)
-- Validações de formulário
+- Autenticação
+- Validações de login
+- Validação do dashboard
 
 ## 📦 Deploy
 

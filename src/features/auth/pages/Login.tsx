@@ -7,6 +7,7 @@ import { useAuth } from '../context/AuthContext';
 import { loginUser } from '../../../services/authService';
 import { t } from '@lingui/core/macro';
 import { Trans } from '@lingui/react/macro';
+import LanguageSwitcher from '../../../components/common/LanguageSwitcher';
 
 const schema = z.object({
 	email: z.string().email('email_invalid'),
@@ -44,6 +45,10 @@ const Login = () => {
 	return (
 		<div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-blue-500 to-indigo-700 text-white px-4">
 			<div className="bg-white text-gray-900 rounded shadow-lg p-8 w-full max-w-sm">
+				<div className="flex justify-end">
+					<LanguageSwitcher />
+				</div>
+
 				<h1 className="text-2xl font-bold mb-6 text-center">
 					<Trans>Acesso ao Painel</Trans>
 				</h1>
@@ -53,10 +58,14 @@ const Login = () => {
 					className="space-y-4"
 				>
 					<div>
-						<label className="block text-sm font-medium mb-1">
+						<label
+							htmlFor="email"
+							className="block text-sm font-medium mb-1"
+						>
 							<Trans>E-mail</Trans>
 						</label>
 						<input
+							id="email"
 							{...register('email')}
 							type="email"
 							placeholder="admin@example.com"
@@ -70,10 +79,14 @@ const Login = () => {
 					</div>
 
 					<div>
-						<label className="block text-sm font-medium mb-1">
+						<label
+							htmlFor="password"
+							className="block text-sm font-medium mb-1"
+						>
 							<Trans>Senha</Trans>
 						</label>
 						<input
+							id="password"
 							{...register('password')}
 							type="password"
 							placeholder="******"

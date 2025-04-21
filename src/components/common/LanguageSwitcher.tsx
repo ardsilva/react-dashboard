@@ -41,7 +41,7 @@ const LanguageSwitcher = () => {
 				</span>
 			</button>
 
-			<div className="absolute -bottom-9 left-1/2 transform -translate-x-1/2 opacity-0 group-hover:opacity-100 transition bg-black text-white text-xs px-2 py-1 rounded shadow">
+			<div className="absolute -bottom-15 left-1/2 transform -translate-x-1/2 opacity-0 group-hover:opacity-100 transition bg-black text-white text-xs px-2 py-1 rounded shadow">
 				{t`Seletor de idioma`}
 			</div>
 		</div>
