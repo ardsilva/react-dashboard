@@ -1,37 +1,42 @@
-Aplicação de dashboard desenvolvida com React + TypeScript, simulando um ambiente real de autenticação e gerenciamento de dados com integração mockada.
+<p align="right">
+  🇧🇷 <a href="./README.pt-BR.md">Ler em Português</a>
+</p>
 
-## 📌 Descrição do Projeto
+# Dashboard React
 
-- Tela de login com autenticação por e-mail e senha
-- Uso de JWT (mocked) com decodificação via jwt-decode
-- Dashboard protegido com listagem de contas (usuários)
-- Funcionalidades completas de CRUD (Criar, Editar, Excluir)
-- Filtro dinâmico por nome
-- Alternância de tema (light/dark) com persistência local
-- Suporte a múltiplos idiomas (🇧🇷 / 🇺🇸) com LinguiJS
-- Toasts de notificação de sucesso e erro
-- Projeto testado com Vitest e React Testing Library
+Dashboard application built with React + TypeScript, simulating a real-world environment with user authentication and data management using mocked integration.
 
-## ✅ Funcionalidades
+## 📌 Project Overview
 
-- [x] Autenticação fake com validação real (admin@example.com / 123456)
-- [x] Decodificação de token JWT para obter dados do usuário
-- [x] Proteção de rotas (auth guard)
-- [x] Listagem e gerenciamento de contas
-- [x] CRUD completo com formulário validado por zod
-- [x] Suporte i18n com LinguiJS (PT-BR e EN-US)
-- [x] Dark Mode com toggle elegante e persistente
-- [x] Testes unitários com cobertura dos principais fluxos
-- [x] Deploy via Vercel (📎 link abaixo)
+- Login screen with email and password authentication
+- Mocked JWT token with decoding via jwt-decode
+- Protected dashboard with user account listing
+- Full CRUD functionality (Create, Read, Update, Delete)
+- Dynamic name sorting
+- Light/Dark theme switching with local persistence
+- Multi-language support (🇧🇷 / 🇺🇸) using LinguiJS
+- Toast notifications for success and error messages
+- Tested with Vitest and React Testing Library
 
-## 🔐 Dados de acesso (validados)
+## ✅ Features
+
+- [x] Mock authentication with real validation (admin@example.com / 123456)
+- [x] JWT decoding to extract user data
+- [x] Route protection (auth guard)
+- [x] Account listing and management
+- [x] Complete CRUD with zod-validated form
+- [x] i18n support via LinguiJS (PT-BR and EN-US)
+- [x] Persistent dark mode with elegant toggle
+- [x] Unit testing covering main flow
+
+## 🔐 Login credentials
 
 ```
 E-mail: admin@example.com
 Senha: 123456
 ```
 
-## 🚀 Tecnologias e Ferramentas
+## 🚀 Technologies & Tools
 
 - React 18
 - TypeScript
@@ -46,16 +51,16 @@ Senha: 123456
 - Testing Library
 - Vercel (deploy)
 
-## 🚩 Instruções para rodar o projeto
+## 🚩 Getting Started
 
-1. Clone o repositório:
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/seu-usuario/react-dashboard.git
 cd react-dashboard
 ```
 
-2. Instale as dependências:
+2. Install dependencies:
 
 ```bash
 pnpm install
@@ -65,49 +70,49 @@ pnpm install
 npm install
 ```
 
-3. Rode o projeto localmente:
+3. Run app locally:
 
 ```bash
 pnpm dev
 ```
 
-4. Rode os testes:
+4. Run the tests:
 
 ```bash
 pnpm test
 ```
 
-## 🧪 Cobertura de testes
+## 🧪 Test Coverage
 
-- Componente de tema (ThemeToggle)
-- Autenticação
-- Validações de login
-- Validação do dashboard
+- Theme component (ThemeToggle)
+- Authentication
+- Login form validation
+- Dashboard validation with mocked accounts
 
-## 📦 Deploy
+## 📦 Deployment
 
-- [🔗 Acesse o app em produção](https://react-dashboard-sona.vercel.app/)
+- [🔗 Open the live app](https://react-dashboard-sona.vercel.app/)
 
-## 📝 Organização
+## 📝 Project Structure
 
 ```bash
 src/
-├── features/ # Módulos agrupados por feature (auth, dashboard, etc)
-├── components/ # Componentes comuns e layout
-├── services/ # Chamadas de APIs (simuladas via JSON local)
-├── mocks/ # Dados mockados opcional (pode ser removido com backend real)
-├── routes/ # Rotas protegidas
-├── shared/ # Theme
-├── tests/ # Testes unitários organizados
+├── features/
+├── components/
+├── services/
+├── mocks/
+├── routes/
+├── shared/
+├── tests/
 ```
 
-## 📎 Considerações
+## 📎 Notes
 
-- O projeto está pronto para ser expandido com backend real.
-- Estrutura modular e escalável, baseada em boas práticas.
-- Internacionalização e temas implementados de forma realista e persistente.
+- The project is ready to be integrated with a real backend.
+- Clean and scalable architecture based on best practices.
+- Realistic implementation of internationalization (i18n) and dark mode.
 
-## 👨‍💻 Autor
+## 👨‍💻 Author
 
-Feito por [Alexandre Silva] • [LinkedIn](https://linkedin.com/in/ardsilva87)  
-Repositório: [GitHub](https://github.com/ardsilva/react-dashboard)
+Made by [Alexandre Silva] • [LinkedIn](https://linkedin.com/in/ardsilva87)  
+Source code: [GitHub](https://github.com/ardsilva/react-dashboard)
